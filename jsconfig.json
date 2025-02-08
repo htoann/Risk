@@ -4,6 +4,16 @@
     "jsx": "preserve",
     "paths": {
       "@/*": ["./src/*"],
+      "@/components/*": ["./components/*"],
+      "@/container/*": ["./container/*"],
+      "@/i18n/*": ["./i18n/*"],
+      "@/layout/*": ["./layout/*"],
+      "@/pages/*": ["./pages/*"],
+      "@/routes/*": ["./routes/*"],
+      "@/static/*": ["./static/*"],
+      "@/utils/*": ["./utils/*"],
+      "@/service/*": ["./service/*"],
+      "@/context/*": ["./context/*"]
     }
   },
   "exclude": ["node_modules", "build"]
