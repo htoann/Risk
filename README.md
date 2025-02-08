@@ -1,6 +1,4 @@
-# 🚀 Invoice System
-
-[Invoice on Vercel](https://uydanh.vercel.app/)
+# 🚀 Risk System
 
 ---
 
@@ -11,8 +9,8 @@ React, Ant Design
 ## Install
 
 ```
-  git clone https://github.com/htoann/Invoice
-  cd Invoice
+  git clone
+  cd risk
   yarn
   yarn start
 ```
@@ -22,4 +20,4 @@ React, Ant Design
 [![License](https://img.shields.io/:License-MIT-blue.svg?style=flat-square)](#)
 
 - MIT License
-- Copyright 2025 © Uy Danh
+- Copyright 2025 ©
