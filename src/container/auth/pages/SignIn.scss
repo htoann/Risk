@@ -1,0 +1,151 @@
+.authentication-wrap {
+  position: relative;
+  padding: 100px 0;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+
+  @media only screen and (max-width: 1399px) {
+    padding: 130px 0;
+  }
+
+  .invoice-authentication-wrap {
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 0;
+
+    @media only screen and (max-width: 767px) {
+      padding: 0 15px;
+    }
+  }
+
+  .invoice-authentication-brand {
+    text-align: center;
+  }
+}
+
+.auth-form-wrap {
+  border-radius: 6px;
+  margin-top: 25px;
+  box-shadow: 0 5px 20px rgba(140, 144, 164, 0.08);
+  background-color: #ffffff;
+
+  .invoice-authentication-top {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e3e6ef;
+
+    .invoice-authentication-top__title {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1;
+      margin-bottom: 0;
+      margin: 10px;
+      color: #0a0a0a;
+    }
+  }
+
+  .invoice-authentication-content {
+    padding: 30px 40px;
+
+    @media only screen and (max-width: 1599px) {
+      padding: 30px 30px 0 30px;
+    }
+
+    .ant-form-item-label {
+      > label {
+        font-size: 14px;
+        color: #0a0a0a;
+      }
+    }
+
+    .ant-form-item {
+      margin-bottom: 25px;
+    }
+
+    .ant-input:focus,
+    .ant-input-focused {
+      box-shadow: 0 5px 20px rgba(251, 53, 134, 0.1);
+    }
+
+    .ant-input {
+      &::placeholder {
+        color: #a0a0a0;
+      }
+    }
+
+    .ant-form-item-explain-error {
+      font-size: 13px;
+      margin-top: 2px;
+    }
+
+    .invoice-auth-extra-links {
+      display: flex;
+      justify-content: space-between;
+      margin-top: -5px;
+
+      .ant-checkbox-wrapper {
+        span {
+          font-size: 13px;
+          color: #747474;
+        }
+
+        .ant-checkbox {
+          & + span {
+            position: relative;
+            top: -2px;
+          }
+        }
+      }
+
+      .forgot-pass-link {
+        font-size: 13px;
+        color: #8231d3;
+      }
+    }
+
+    .btn-signIn,
+    .btn-create {
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 6px;
+      width: 100%;
+      min-height: 48px;
+      margin-top: 25px;
+    }
+
+    .ant-input-affix-wrapper {
+      &.ant-input-password {
+        input {
+          color: #0a0a0a;
+        }
+      }
+    }
+
+    .ant-input-affix-wrapper {
+      padding: 12px 20px;
+    }
+  }
+
+  .invoice-authentication-bottom {
+    text-align: center;
+    padding: 25px;
+    border-radius: 0 0 6px 6px;
+
+    p {
+      font-size: 14px;
+      font-weight: 500;
+      color: #404040;
+      margin-bottom: 0;
+
+      a {
+        margin-left: 6px;
+        color: #8231d3;
+      }
+    }
+  }
+}
