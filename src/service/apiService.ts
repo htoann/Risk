@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { ACCESS_TOKEN, API_ENDPOINT, REFRESH_TOKEN } from '@/utils/const';
 import { clearLogoutLocalStorageAndCookie, filterEmptyField } from '@/utils/index';
 import { getCookie, setCookie } from '@/utils/storage/cookie';

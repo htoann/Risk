@@ -1,4 +1,4 @@
-const getLocalStorage = (key) => {
+const getLocalStorage = (key: string) => {
   const data = localStorage.getItem(key);
 
   if (data === 'undefined' || data === null) {
@@ -12,12 +12,12 @@ const getLocalStorage = (key) => {
   }
 };
 
-const setLocalStorage = (key, value) => {
+const setLocalStorage = (key: string, value: any) => {
   const stringify = typeof value !== 'string' ? JSON.stringify(value) : value;
   return localStorage.setItem(key, stringify);
 };
 
-const removeLocalStorage = (key) => {
+const removeLocalStorage = (key: string) => {
   localStorage.removeItem(key);
 };
 
